@@ -4,13 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sameep Pahari's Portfolio</title>
-  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>SAMEEP PAHARI</h1>
-    <p>Pre-final year BTech student at Chandigarh University, aspiring Cybersecurity Specialist.</p>
+    <div class="container">
+      <h1>SAMEEP PAHARI</h1>
+      <p>Pre-final year BTech student at Chandigarh University, aspiring Cybersecurity Specialist.</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
   </header>
+
+  <nav>
+    <ul>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#about">About Me</a></li>
+    </ul>
+  </nav>
 
   <section id="skills">
     <h2>Skills</h2>
@@ -25,11 +38,14 @@
 
   <section id="projects">
     <h2>Projects</h2>
-    <h3>1. Implementation of Contraindications and Trailing of Comorbidities</h3>
-    <p>Assisted by a Centralized Database System</p>
-    
-    <h3>2. Securing India's Digital Borders</h3>
-    <p>Strategies Against Cyber Espionage and Intellectual Property Theft</p>
+    <div class="project">
+      <h3>Implementation of Contraindications and Trailing of Comorbidities</h3>
+      <p>Assisted by a Centralized Database System</p>
+    </div>
+    <div class="project">
+      <h3>Securing India's Digital Borders</h3>
+      <p>Strategies Against Cyber Espionage and Intellectual Property Theft</p>
+    </div>
   </section>
 
   <section id="education">
@@ -48,7 +64,7 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <img src="photo.jpg" alt="Sameep Pahari" style="width: 200px; border-radius: 50%; margin: 10px 0;">
+    <img src="photo.jpg" alt="Sameep Pahari" class="profile-photo">
     <p>Here is my resume: <a href="resume.pdf" target="_blank">Download My Resume</a></p>
   </section>
 
