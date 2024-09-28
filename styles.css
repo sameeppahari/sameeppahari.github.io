@@ -7,11 +7,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    color: #333; /* Set a default text color */
 }
 
 header {
-    background: #35424a;
+    background: rgba(53, 66, 74, 0.9); /* Semi-transparent background for header */
     color: #ffffff;
     padding: 60px 0;
     text-align: center;
@@ -42,7 +43,7 @@ header p {
 }
 
 nav {
-    background: #35424a;
+    background: rgba(53, 66, 74, 0.9); /* Semi-transparent background for nav */
     color: #ffffff;
     padding: 10px 0;
 }
@@ -85,7 +86,7 @@ section {
 footer {
     text-align: center;
     padding: 15px 0;
-    background: #35424a;
+    background: rgba(53, 66, 74, 0.9); /* Semi-transparent background for footer */
     color: #ffffff;
 }
 
