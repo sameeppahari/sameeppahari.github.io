@@ -2,83 +2,95 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
 }
 
 header {
-    background-color: #333; /* Black background for header */
+    background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
 section {
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px; /* Center and limit the width of sections */
-    background-color: white; /* White background for sections */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-h1 {
-    color: white; /* Header text color */
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 h2, h3 {
-    color: #333; /* Dark gray for subheadings */
+    color: #333;
 }
 
 p, ul, li {
-    color: #555; /* Medium gray for paragraph and list items */
+    color: #555;
 }
 
 ul {
-    list-style-type: square; /* Square bullet points for lists */
+    list-style-type: square;
     padding-left: 20px;
 }
 
 a {
-    color: #007BFF; /* Link color */
-    text-decoration: none; /* No underline for links */
+    color: #007BFF;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 form {
-    margin-top: 20px; /* Spacing above the form */
+    margin-top: 20px;
 }
 
 label {
-    display: block; /* Each label on a new line */
-    margin-bottom: 8px; /* Spacing below labels */
+    display: block;
+    margin-bottom: 8px;
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: 100%; /* Full width inputs */
-    padding: 10px; /* Spacing inside inputs */
-    margin-bottom: 20px; /* Spacing below inputs */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Rounded corners for inputs */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 input[type="submit"] {
-    background-color: #007BFF; /* Submit button color */
-    color: white; /* Text color for button */
-    padding: 10px 20px; /* Spacing inside button */
-    border: none; /* No border for button */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
 footer {
-    text-align: center; /* Centered footer text */
-    padding: 20px; /* Spacing in footer */
-    background-color: #333; /* Black background for footer */
-    color: white; /* White text in footer */
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Style for smaller photo */
+img {
+    max-width: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it circular if it's a profile photo */
+    margin-bottom: 20px; /* Space below the image */
 }
