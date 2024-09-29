@@ -1,70 +1,84 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
     background-color: #f4f4f4;
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-h1 {
-    margin: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
+    background-color: #333; /* Black background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 section {
-    margin: 20px 0;
     padding: 20px;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px; /* Center and limit the width of sections */
+    background-color: white; /* White background for sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.project {
-    margin-bottom: 15px;
+h1 {
+    color: white; /* Header text color */
+}
+
+h2, h3 {
+    color: #333; /* Dark gray for subheadings */
+}
+
+p, ul, li {
+    color: #555; /* Medium gray for paragraph and list items */
+}
+
+ul {
+    list-style-type: square; /* Square bullet points for lists */
+    padding-left: 20px;
+}
+
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* No underline for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+form {
+    margin-top: 20px; /* Spacing above the form */
+}
+
+label {
+    display: block; /* Each label on a new line */
+    margin-bottom: 8px; /* Spacing below labels */
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Spacing inside inputs */
+    margin-bottom: 20px; /* Spacing below inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for inputs */
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Submit button color */
+    color: white; /* Text color for button */
+    padding: 10px 20px; /* Spacing inside button */
+    border: none; /* No border for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    text-align: center; /* Centered footer text */
+    padding: 20px; /* Spacing in footer */
+    background-color: #333; /* Black background for footer */
+    color: white; /* White text in footer */
 }

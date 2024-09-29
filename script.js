@@ -1,15 +1,14 @@
-// script.js
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault();
 
-// Add smooth scrolling to all links
-document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+    // Capture form data
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
+    // Show a basic message (or you could send this data to a server)
+    alert("Thank you, " + name + "! Your message has been sent.");
 
-        targetElement.scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
+    // Clear the form
+    document.getElementById("contactForm").reset();
 });
