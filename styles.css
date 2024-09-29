@@ -1,56 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
-    color: #333; /* Set a default text color */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Change to your desired background color */
 }
 
 header {
-    background: rgba(53, 66, 74, 0.9); /* Semi-transparent background for header */
-    color: #ffffff;
-    padding: 60px 0;
-    text-align: center;
-}
-
-header .container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-header h1 {
-    font-size: 2.5em;
-}
-
-header p {
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #48a9e0;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-nav {
-    background: rgba(53, 66, 74, 0.9); /* Semi-transparent background for nav */
-    color: #ffffff;
+    background: #333; /* Header background color */
+    color: #fff; /* Header text color */
     padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    text-align: center;
+    padding: 0;
 }
 
 nav ul li {
@@ -58,44 +23,21 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: #ffffff;
+nav a {
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
 }
 
 section {
-    max-width: 800px;
-    margin: 20px auto;
     padding: 20px;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-.project {
-    margin-bottom: 15px;
-}
-
-.profile-photo {
-    width: 200px;
-    border-radius: 50%;
-    margin: 10px 0;
+    margin: 10px;
+    background: #fff; /* Section background color */
+    border-radius: 5px; /* Rounded corners */
 }
 
 footer {
     text-align: center;
-    padding: 15px 0;
-    background: rgba(53, 66, 74, 0.9); /* Semi-transparent background for footer */
-    color: #ffffff;
-}
-
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    header p {
-        font-size: 1em;
-    }
+    padding: 10px 0;
+    background: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
 }
