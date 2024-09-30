@@ -1,42 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000; /* Black background */
+    background-color: black;
     color: white;
-}
-
-header {
-    background-color: #0072ff; /* Blue header */
-    padding: 20px;
-    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
 
-section {
-    background-color: #1a1a1a; /* Dark gray for boxes */
-    border: 1px solid #0072ff; /* Blue border */
-    border-radius: 10px;
+h1, h2, h3 {
+    color: #00bfff; /* Light blue color for headings */
+}
+
+.section-box {
+    background-color: #1a1a1a; /* Dark gray for section boxes */
+    border: 1px solid #00bfff; /* Light blue border */
+    border-radius: 8px;
     padding: 20px;
-    margin: 15px 0; /* Space between sections */
-    width: 80%; /* Width of the boxes */
+    margin-bottom: 20px;
 }
 
-h1, h2 {
-    margin: 0;
-}
-
-.skills ul, .projects ul, .certifications ul {
-    list-style: none;
+.section-box ul {
+    list-style-type: none;
     padding: 0;
 }
 
-.contact a {
-    color: white;
+.section-box a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.section-box a:hover {
+    text-decoration: underline;
 }
