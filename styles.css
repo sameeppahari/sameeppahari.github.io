@@ -2,95 +2,41 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-color: #000; /* Black background */
+    color: white;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #0072ff; /* Blue header */
     padding: 20px;
     text-align: center;
 }
 
-h1 {
-    font-size: 2.5em;
-}
-
-h2 {
-    font-size: 1.8em;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #1a1a1a; /* Dark gray for boxes */
+    border: 1px solid #0072ff; /* Blue border */
     border-radius: 10px;
-}
-
-h2, h3 {
-    color: #333;
-}
-
-p, ul, li {
-    color: #555;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-form {
-    margin-top: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-input[type="text"], input[type="email"], textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="submit"] {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    margin: 15px 0; /* Space between sections */
+    width: 80%; /* Width of the boxes */
 }
 
-/* Style for smaller photo */
-img {
-    max-width: 150px; /* Adjust size as needed */
-    border-radius: 50%; /* Make it circular if it's a profile photo */
-    margin-bottom: 20px; /* Space below the image */
+h1, h2 {
+    margin: 0;
+}
+
+.skills ul, .projects ul, .certifications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact a {
+    color: white;
 }
