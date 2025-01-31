@@ -1,0 +1,114 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+}
+
+.skill img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.skill h3 {
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#projects ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#projects ul li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* Papers Section */
+#papers {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#papers h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#papers p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
