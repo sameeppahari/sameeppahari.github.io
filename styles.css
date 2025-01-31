@@ -104,6 +104,55 @@ header h2 {
     text-align: center;
 }
 
+/* Contact Section */
+#contact {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact-item {
+    width: 200px;
+    margin: 15px;
+}
+
+.contact-item p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Icons styling */
+.contact-item i {
+    font-size: 2rem;
+    color: #333;
+}
+
+.contact-item a:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.contact-item i:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
 /* Footer Section */
 footer {
     background-color: #333;
